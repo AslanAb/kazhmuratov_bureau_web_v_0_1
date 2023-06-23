@@ -14,6 +14,29 @@ module.exports = {
 			},
 			minHeight: {
 				"1/2": "585px"
+			},
+			height: {
+				600: "600px"
+			},
+			animation: {
+				show: "show 1s",
+				showOut: "showOut 1s"
+			},
+			keyframes: {
+				show: {
+					from: { opacity: 0 },
+					to: { opacity: 1 }
+				},
+				showOut: {
+					from: { opacity: 1 },
+					to: { opacity: 0 }
+				}
+			},
+			transitionStylesAll: {
+				entering: { opacity: 1 },
+				entered: { opacity: 1 },
+				exiting: { opacity: 0 },
+				exited: { opacity: 0 }
 			}
 		}
 	},
