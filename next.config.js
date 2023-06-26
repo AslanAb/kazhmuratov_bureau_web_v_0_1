@@ -6,6 +6,12 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "mir-s3-cdn-cf.behance.net",
 				port: "",
+				pathname: "/project_modules/fs/**"
+			},
+			{
+				protocol: "https",
+				hostname: "mir-s3-cdn-cf.behance.net",
+				port: "",
 				pathname: "/project_modules/1400/**"
 			}
 		]

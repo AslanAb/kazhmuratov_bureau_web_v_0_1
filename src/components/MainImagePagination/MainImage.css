@@ -1,0 +1,30 @@
+/* appear */
+/* .transitions-appear {
+	opacity: 0;
+}
+.transitions-appear-active {
+	opacity: 1;
+	transition: opacity 1000ms linear;
+} */
+/* entering */
+.transitions-enter {
+	opacity: 0;
+}
+.transitions-enter-active {
+	opacity: 1;
+    transition: opacity 500ms linear 500ms;
+}
+.transitions-enter-done {
+	opacity: 1;
+}
+/* exiting */
+.transitions-exit {
+	opacity: 1;
+}
+.transitions-exit-active {
+    transition: opacity 500ms linear;
+	opacity: 0;
+}
+.transitions-exit-done {
+	opacity: 0;
+}

@@ -4,14 +4,16 @@ import Link from "next/link"
 
 const Header = () => {
 	return (
-		<header className="h-16 flex items-center justify-between px-[10%]">
-			<div className="h-[80%] w-16 relative z-10">
+		<header className="h-16 flex items-center justify-between px-[22%] z-10 bg-white">
+			<div className="h-14 w-14 z-10">
 				<Link href="/">
 					<Image
 						src={logo}
 						alt="logo"
 						style={{ objectFit: "contain" }}
-						fill={true}
+						priority={true}
+						width={56}
+						height={56}
 					/>
 				</Link>
 			</div>

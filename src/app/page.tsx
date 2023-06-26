@@ -1,9 +1,9 @@
-import Image from "next/image"
-import MainImagePagination from "@/components/MainImagePagination"
+
+import MainImagePagination from "@/components/MainImagePagination/MainImagePagination"
 
 export default function Home() {
 	return (
-		<div>
+		<div className="min-h-[95vh] -z-10">
 			<MainImagePagination />
 		</div>
 	)

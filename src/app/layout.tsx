@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className=" px-[20%] min-h-screen w-screen">
+			<body>
 				<Header />
-				<main className="min-h-1/2">{children}</main>
+				<main>{children}</main>
 				<Footer />
 			</body>
 		</html>

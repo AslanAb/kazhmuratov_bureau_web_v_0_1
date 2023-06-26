@@ -32,12 +32,6 @@ module.exports = {
 					to: { opacity: 0 }
 				}
 			},
-			transitionStylesAll: {
-				entering: { opacity: 1 },
-				entered: { opacity: 1 },
-				exiting: { opacity: 0 },
-				exited: { opacity: 0 }
-			}
 		}
 	},
 	plugins: []

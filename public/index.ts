@@ -1,0 +1,8 @@
+export {default as  logo} from "./logo.jpg"
+export {default as  building_design} from "./building_design.jpg"
+export {default as  living_spaces} from "./living_spaces.jpg"
+export {default as  non_living_spaces} from "./non_living_spaces.jpg"
+export {default as  pagination_curcle_active} from "./pagination_curcle_active.png"
+export {default as  pagination_curcle_default} from "./pagination_curcle_default.png"
+export {default as  pagination_left} from "./pagination_left.png"
+export {default as  pagination_right} from "./pagination_right.png"
