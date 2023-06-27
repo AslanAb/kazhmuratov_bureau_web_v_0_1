@@ -11,7 +11,7 @@ import MainImage from "@/components/MainImagePagination/MainImage"
 import { CSSTransition } from "react-transition-group"
 import "@/components/MainImagePagination/MainImage.css"
 import mainImages from "@/app/data/main_page_images"
-import IImages from "@/app/models"
+import { IImages } from "@/app/models"
 
 export default function MainImagePagination() {
 	const [img, setImg] = useState(mainImages[0])
@@ -61,7 +61,11 @@ export default function MainImagePagination() {
 					return (
 						<button onClick={() => activateImage(item)} key={item.id}>
 							<Image
-								src={item.id === img.id ? pagination_curcle_active : pagination_curcle_default}
+								src={
+									item.id === img.id
+										? pagination_curcle_active
+										: pagination_curcle_default
+								}
 								alt="icon"
 								width={16}
 								height={16}

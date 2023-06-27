@@ -26,7 +26,7 @@ export default function MainImage(img: IImage) {
 						priority={true}
 						style={{
 							objectFit: "cover",
-							objectPosition: "center",
+							objectPosition: "50% 70%",
 							zIndex: "-1"
 						}}
 					/>
@@ -35,5 +35,3 @@ export default function MainImage(img: IImage) {
 		</TransitionGroup>
 	)
 }
-
-
