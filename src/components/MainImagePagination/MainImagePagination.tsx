@@ -41,7 +41,7 @@ export default function MainImagePagination() {
 			<div className="">
 				<CSSTransition
 					in={true}
-					timeout={1000}
+					timeout={500}
 					classNames="transitions"
 					appear={true}
 				>

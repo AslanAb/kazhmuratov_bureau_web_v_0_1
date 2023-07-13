@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Header = () => {
 	return (
-		<header className="h-16 flex items-center justify-between px-[22%] z-10 bg-white">
+		<header className="h-16 flex items-center justify-between px-[22%] z-0 bg-white">
 			<div className="h-14 w-14 z-10">
 				<Link href="/">
 					<Image
@@ -19,7 +19,7 @@ const Header = () => {
 			</div>
 			<div className="h-full w-3/5 flex items-center justify-between z-10">
 				<Link href="/">Главная</Link>
-				<Link href="/gallery">Галлерея</Link>
+				<Link href="/gallery">Галерея</Link>
 				<Link href="/tariffs">Тарифы</Link>
 				<Link href="/contacts">Контакты</Link>
 			</div>

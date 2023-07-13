@@ -14,7 +14,7 @@ export default function MainImage(img: IImage) {
 		<TransitionGroup>
 			<CSSTransition
 				key={img.img.id}
-				timeout={1000}
+				timeout={500}
 				classNames="transitions"
 				appear={true}
 			>

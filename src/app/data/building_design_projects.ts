@@ -1,4 +1,6 @@
-const building_design_projects = [
+import { IProject } from "../models"
+
+const building_design_projects: IProject[] = [
 	{
 		id: 1,
 		project_name: "High School",

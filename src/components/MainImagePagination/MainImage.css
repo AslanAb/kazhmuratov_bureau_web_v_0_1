@@ -12,7 +12,7 @@
 }
 .transitions-enter-active {
 	opacity: 1;
-    transition: opacity 500ms linear 500ms;
+    transition: opacity 250ms linear 250ms;
 }
 .transitions-enter-done {
 	opacity: 1;
@@ -22,7 +22,7 @@
 	opacity: 1;
 }
 .transitions-exit-active {
-    transition: opacity 500ms linear;
+    transition: opacity 250ms linear;
 	opacity: 0;
 }
 .transitions-exit-done {

@@ -19,7 +19,7 @@ function GalleryCard({ cardImage, text }: ICardImageAndText) {
 				placeholder="blur"
 				blurDataURL={cardImage.blurDataURL}
 			/>
-			<h1 className=" text-2xl font-bold text-white w-1/2 ml-4">{text}</h1>
+			<h1 className="text-2xl font-bold text-white w-1/2 ml-4">{text}</h1>
 		</div>
 	)
 }

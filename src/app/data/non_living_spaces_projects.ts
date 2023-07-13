@@ -1,4 +1,6 @@
-const non_living_spaces_projects = [
+import { IProject } from "../models"
+
+const non_living_spaces_projects: IProject[] = [
 	{
 		id: 1,
 		project_name: "Botanical Residence",
