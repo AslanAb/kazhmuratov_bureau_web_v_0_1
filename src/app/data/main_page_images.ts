@@ -33,4 +33,5 @@ const mainImages = [
 	}
 ]
 
+
 export default mainImages

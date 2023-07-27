@@ -6,7 +6,7 @@ interface ICardImageAndText {
 
 function GalleryCard({ cardImage, text }: ICardImageAndText) {
 	return (
-		<div className="w-full relative h-full flex items-center">
+		<div className="w-full relative h-full flex items-center justify-center text-transparent  hover:text-white hover:bg-black hover:bg-opacity-30">
 			<Image
 				src={cardImage.src}
 				fill={true}
@@ -19,7 +19,7 @@ function GalleryCard({ cardImage, text }: ICardImageAndText) {
 				placeholder="blur"
 				blurDataURL={cardImage.blurDataURL}
 			/>
-			<h1 className="text-2xl font-bold text-white w-1/2 ml-4">{text}</h1>
+			<h1 className="text-2xl font-bold w-2/3 text-center">{text}</h1>
 		</div>
 	)
 }

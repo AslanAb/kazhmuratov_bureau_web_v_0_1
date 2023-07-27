@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function GalleryPage() {
 	return (
 		<section className="w-full px-[20%] min-h-screen">
-			<div className="w-full flex justify-between h-[50vh] mt-14">
+			<div className="w-full flex justify-between h-[50vh] mt-32">
 				<Link href="/gallery/living_spaces" className="h-full w-[45%] block">
 					<GalleryCard
 						cardImage={living_spaces}
